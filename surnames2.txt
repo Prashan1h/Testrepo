@@ -1,2 +1,3 @@
 uff stashed surnames.txt, so writing all over again
-gopalabahtla is the surnames, added newly to check if we switched branches, do we need to commit frist to push it?
+gopalabhatla is the surname, added newly to check if we switched branches, do we need to commit first to push it?
+-new observation: with change in branches, the content of the file also changes:for example: if i am on a surnames branch and I do some changes while on it to the file called surnames2.txt and commit it, the file shows the changes. But, if I switched to main branch again and ran vim surnames2.txt, it shows the actual text only and not te newly added text.
