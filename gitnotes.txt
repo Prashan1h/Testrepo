@@ -1,0 +1,12 @@
+files already on main
+--> continue to be on sub branches too
+--> but content changes committed on one sub branch will not reflect on other sub branches
+
+files explicitly created inside a sub branch which is not originally part of main
+--> will reflect on all the branches including main until committed (can commit in any branch         even if created as a part of a particular branch
+--> once committed, remains and reflects only in the committed branch.
+
+Balancing/ updating forked main branch with original main branch:
+1)git fetch --all --prune
+2) git reset --hard upstream/main
+
